@@ -61,8 +61,8 @@ GPU has hundreds of cores optimized for performing expensive matrix operations w
 
 ## References
 
-Dataset: http://yann.lecun.com/exdb/mnist/
-Wiki: https://en.wikipedia.org/wiki/MNIST_database
-PyTorch: https://pytorch.org/docs/stable/index.html
+- Dataset: http://yann.lecun.com/exdb/mnist/
+- Wiki: https://en.wikipedia.org/wiki/MNIST_database
+- PyTorch: https://pytorch.org/docs/stable/index.html
 
 ----------------------------------------------------------
