@@ -1,7 +1,7 @@
 # Deep-Neural-Networks-using-PyTorch
 
 This repository covers the following topics:
-- How to create a deep neural network with hidden layers.
+- How to create a deep neural network with 2 hidden layers.
 - How to use a non-linear activation function.
 - How to use a GPU (when available) to speed up training process.
 - How to use different hyperparameters to improve the model.
@@ -24,7 +24,9 @@ We've prepared the data with step-by-step procedure,
 
 We've added required number of hidden layers, activation functions to introduce a non-linearity with step-by-step procedures,
 - Created a batch of imput tensors and flattened the images of size 1*28*28 into vectors of size 784.
-- Added a hidden layer using nn.Linear object with hidden output size(intermediate output vectors) of 32.
+- Added a first hidden layer using nn.Linear object with hidden output size(intermediate output vectors) of 64.
+- Rectified Linear Unit (ReLU) Function as activation function which converts negative values in a tensor with the value of 0.
+- Added a seocnd hidden layer using nn.Linear object with hidden output size(intermediate output vectors) of 64.
 - Rectified Linear Unit (ReLU) Function as activation function which converts negative values in a tensor with the value of 0.
 - Added output layer to convert vectors into the vetors of length 10, which is the desired output of the model.
 - Computed the loss uding cross_entropy to adjust the weights of both hidden and output layer using Gradient Descent.
@@ -32,7 +34,7 @@ We've added required number of hidden layers, activation functions to introduce 
 ## Define the Model
 
 - Defined the model by extending the nn.Module class from PyTorch.
-- Created a model using Input_Size=784, hidden_size=64, output_size=10.
+- Created a model using Input Layer of vector size of 784, Hidden Layer1 Size of 64, Hidden Layer2 Size of 64, Output Layer of Size 10.
 - Compute the loss on first batch of 128 images from the dataset.
 - Leveraged the GPU to train the model.
 - Created the DeviceDataLoaders to make use of DataLoaders on a GPU device.
