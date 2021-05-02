@@ -56,6 +56,7 @@ GPU has hundreds of cores optimized for performing expensive matrix operations w
 - PyTorch
 - Python
 - Google Colab
+- Jupyter Notebook
 
 ----------------------------------------------------------
 
