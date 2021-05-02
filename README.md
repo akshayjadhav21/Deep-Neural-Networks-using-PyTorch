@@ -8,7 +8,7 @@ This repository covers the following topics:
 
 ## Preparing the data
 
-The dataset consists of 28*28 grayscale images of handwritten digits (0 to 9) and labels for each image indicating which digit it represents. Here are some sample images from the dataset:
+The dataset consists of 60000 (28*28) grayscale images of handwritten digits (0 to 9) and labels for each image indicating which digit it represents. Here are some sample images from the dataset:
 
 ![MNIST Data Sample](sample_images_MNIST.jpeg)
 
