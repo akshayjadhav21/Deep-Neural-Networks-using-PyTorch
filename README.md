@@ -10,7 +10,7 @@ This repository covers the following topics:
 
 The dataset consists of 28*28 grayscale images of handwritten digits (0 to 9) and labels for each image indicating which digit it represents. Here are some sample images from the dataset:
 
---- image
+![MNIST Data Sample](sample_images_MNIST.jpeg)
 
 It's quite challenging to improve the accuracy using normal Logistic Regression model which takes linear relationship between inputs and output into account for image classification. So, we will try to improve the accuracy using Feed-Forward Neural Network which can capture non-linear relationship between inputs and targets.
 
