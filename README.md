@@ -46,6 +46,9 @@ We've added required number of hidden layers, activation functions to introduce 
 
 - Tested the model with some sample images from predefined 10000 test dataset with same data transformations as used above.
 
+NOTE: We've used a GPU to train the model because when we encounter the larger size of model and datasets we need to train them using reasonable amount of time.
+GPU has hundreds of cores optimized for performing expensive matrix operations which makes them ideal for training a deep neural networks.
+
 ----------------------------------------------------------
 
 ## Technologies Used
