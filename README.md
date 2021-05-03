@@ -29,12 +29,12 @@ We've added required number of hidden layers, activation functions to introduce 
 - Added a second hidden layer using nn.Linear object with hidden output size(intermediate output vectors) of 64.
 - Rectified Linear Unit (ReLU) Function as activation function which converts negative values in a tensor with the value of 0.
 - Added output layer to convert vectors into the vetors of length 10, which is the desired output of the model.
-- Computed the loss uding cross_entropy to adjust the weights of both hidden and output layer using Gradient Descent.
+- Computed the loss using cross_entropy to adjust the weights of both hidden and output layer with Gradient Descent.
 
 ## Define the Model
 
 - Defined the model by extending the nn.Module class from PyTorch.
-- Created a model using Input Layer of vector size of 784, Hidden Layer1 Size of 64, Hidden Layer2 Size of 64, Output Layer of Size 10.
+- Created a model using Input Layer of vector size of 784, Hidden Layer 1 Size of 64, Hidden Layer 2 Size of 64, Output Layer of Size 10.
 - Compute the loss on first batch of 128 images from the dataset.
 - Leveraged the GPU to train the model.
 - Created the DeviceDataLoaders to make use of DataLoaders on a GPU device.
@@ -46,9 +46,9 @@ We've added required number of hidden layers, activation functions to introduce 
 
 ## Testing the model on individual images
 
-- Tested the model with some sample images from predefined 10000 test dataset with same data transformations as used above.
+- Tested the model with some sample images from predefined 10,000 test dataset with same data transformations used while training.
 
-NOTE: We've used a GPU to train the model because when we encounter the larger size of model and datasets we need to train them using reasonable amount of time.
+NOTE: We've used a GPU to train the model because when we encounter the larger size of the model and datasets we need to train them in a reasonable amount of time.
 GPU has hundreds of cores optimized for performing expensive matrix operations which makes them ideal for training a deep neural networks.
 
 ----------------------------------------------------------
