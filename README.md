@@ -26,7 +26,7 @@ We've added required number of hidden layers, activation functions to introduce 
 - Created a batch of imput tensors and flattened the images of size 1*28*28 into vectors of size 784.
 - Added a first hidden layer using nn.Linear object with hidden output size(intermediate output vectors) of 64.
 - Rectified Linear Unit (ReLU) Function as activation function which converts negative values in a tensor with the value of 0.
-- Added a seocnd hidden layer using nn.Linear object with hidden output size(intermediate output vectors) of 64.
+- Added a second hidden layer using nn.Linear object with hidden output size(intermediate output vectors) of 64.
 - Rectified Linear Unit (ReLU) Function as activation function which converts negative values in a tensor with the value of 0.
 - Added output layer to convert vectors into the vetors of length 10, which is the desired output of the model.
 - Computed the loss uding cross_entropy to adjust the weights of both hidden and output layer using Gradient Descent.
