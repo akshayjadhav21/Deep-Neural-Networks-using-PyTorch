@@ -34,7 +34,7 @@ We've added required number of hidden layers, activation functions to introduce 
 ## Define the Model
 
 - Defined the model by extending the nn.Module class from PyTorch.
-- Created a model using Input Layer of vector size of 784, Hidden Layer 1 Size of 64, Hidden Layer 2 Size of 64, Output Layer of Size 10.
+- Created a model using Input Layer of vector size of 784, Hidden Layer 1 of size 64, Hidden Layer 2 of size 64, Output Layer of size 10.
 - Compute the loss on first batch of 128 images from the dataset.
 - Leveraged the GPU to train the model.
 - Created the DeviceDataLoaders to make use of DataLoaders on a GPU device.
