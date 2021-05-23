@@ -1,4 +1,4 @@
-# Deep-Neural-Networks-using-PyTorch
+# Deep Neural Networks using PyTorch
 
 This repository covers the following topics:
 - How to create a deep neural network with 2 hidden layers.
