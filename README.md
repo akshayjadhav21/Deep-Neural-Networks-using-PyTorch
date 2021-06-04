@@ -14,7 +14,7 @@ The dataset consists of 60,000 (28*28) grayscale images of handwritten digits (0
 
 It's quite challenging to improve the accuracy using normal Logistic Regression model which takes linear relationship between inputs and output into account for image classification. So, we will try to improve the accuracy using Feed-Forward Neural Network which can capture non-linear relationship between inputs and targets.
 
-We've prepared the data with step-by-step procedure,
+I've prepared the data with step-by-step procedure,
 - Import the required libraries.
 - Download the data and create a PyTorch dataset.
 - We've splitted the dataset into train(50000 images) and validation(10000 images) for validation of the model.
